@@ -124,30 +124,5 @@ def idn_to_unicode(s):
 
     return '.'.join(rv)
 
-
-def tests():
-    good = [ "xn--mgbaal8b0b9b2b.com",
-            ]
-
-    bad = [ 'xn--bluecat-x2c.com', 
-            'xn--bluecot-fn4c.com', 
-            'xn--e1awd7f.com', ]
-
-    for g in good:
-        print("Actual String: {}".format(g))
-        idn = idn_to_unicode(g)
-        print("IDN: {}".format(idn))
-        draw_text(idn)
-
-        print("")
-
-    for b in bad:
-        print("Actual String: {}".format(g))
-        idn = idn_to_unicode(b)
-        print("IDN: {}".format(idn))
-        draw_text(idn)
-            
-        print("")
-
 if __name__ == '__main__':
     main()
