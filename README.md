@@ -13,7 +13,7 @@ IDN: еріс.com (xn--e1awd7f.com)
 	- epic.com 199.204.56.88
 ```
 
-## Depdendencies
+## Dependencies
 
 This script requires python3, pillow (the python3 imaging library), and [tesseract-ocr](https://github.com/tesseract-ocr/tesseract).
 
