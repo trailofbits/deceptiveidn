@@ -1,6 +1,6 @@
 # Deceptive IDN
 
-Phishers are still using [Internationalized Domain Names](https://en.wikipedia.org/wiki/Internationalized\_domain\_name) to trick users. This project uses computer vision to automatically check if IDNs have a deceptive reading.
+[Phishers](https://www.bluecoat.com/security-blog/2014-05-22/bad-guys-using-internationalized-domain-names-idns) are still using [Internationalized Domain Names](https://en.wikipedia.org/wiki/Internationalized\_domain\_name) to trick users. This project uses computer vision to automatically check if IDNs have a deceptive reading.
 
 ## Usage
 
