@@ -1,0 +1,6 @@
+\n\*.com
+\n\*.net
+\n\*.org
+\n\*.mil
+\n\*.edu
+\n\*.gov
